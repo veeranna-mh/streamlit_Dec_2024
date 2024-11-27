@@ -8,7 +8,7 @@ with open('car_pred_model', 'rb') as f:
 
 
 st.title("Car Price Prediction - Veeranna")
-st.subheader("This is for Web API demonstration purpose only.")
+st.subheader("This is for demonstration purpose only")
 st.subheader("Model predictions may not be realistic")
 cars_df=pd.read_csv("./cars24-car-price1.csv")
 st.subheader("Cars-24 data frame:")
